@@ -1,2 +1,1 @@
-username = wnykhza
-password = Wnykhza77*
+Quiz Pemrogramman Berbasis Website
