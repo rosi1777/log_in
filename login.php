@@ -16,8 +16,7 @@ $result=mysqli_fetch_array($res);
 if($result)
 {
 	if(isset($_REQUEST["rememberMe"]) && $_REQUEST["rememberME"]==1)
-	setcookie("login","1",time()+60);// second on page time 
-else
+	setcookie("login","1",time()+60);
 	setcookie("login","1");
 	header("location:homePage.php");
 	
