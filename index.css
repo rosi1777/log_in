@@ -86,10 +86,6 @@
     color: #777;
 }
 
-
-/* Fallback for Edge
--------------------------------------------------- */
-
 @supports (-ms-ime-align: auto) {
     .form-label-group>label {
         display: none;
