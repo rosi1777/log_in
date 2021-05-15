@@ -32,7 +32,7 @@
                                     </div>
 
                                     <div class="custom-control custom-checkbox mb-3">
-                                        <input id="login-remember" type="checkbox" name="rememberMe" value="1" <?php if($rememberMe == '1') echo "checked"?>>
+                                        <input id="login-remember" type="checkbox" name="rememberMe" value="1">
                                         <label class="custom-control-label" for="customCheck1">Remember Me</label>
                                     </div>
                                     <input class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit" value="Log In" name="submit">
